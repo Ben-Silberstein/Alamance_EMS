@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Alamance EMS PocketGuide
 //
-//  Created by Ryan Rudinger on 11/27/17.
-//  Copyright © 2017 Ryan Rudinger. All rights reserved.
+//  Created by Ryan Rudinger, Ben Silberstein on 11/27/17.
+//  Copyright © 2017 Ryan Rudinger, Ben Silberstein. All rights reserved.
 //
 
 import UIKit

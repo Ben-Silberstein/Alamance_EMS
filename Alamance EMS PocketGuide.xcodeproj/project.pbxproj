@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78889F611FD8588300EA5403 /* EMS PDF Files in Resources */ = {isa = PBXBuildFile; fileRef = 78889F601FD8588300EA5403 /* EMS PDF Files */; };
+		78889F631FD8593300EA5403 /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78889F621FD8593300EA5403 /* ProtocolViewController.swift */; };
+		78889F651FD8596700EA5403 /* ProtocolFolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78889F641FD8596700EA5403 /* ProtocolFolderViewController.swift */; };
 		78A241501FCCFC56003D6C01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A2414F1FCCFC56003D6C01 /* AppDelegate.swift */; };
 		78A241521FCCFC56003D6C01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A241511FCCFC56003D6C01 /* ViewController.swift */; };
 		78A241551FCCFC56003D6C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A241531FCCFC56003D6C01 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78889F601FD8588300EA5403 /* EMS PDF Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "EMS PDF Files"; sourceTree = "<group>"; };
+		78889F621FD8593300EA5403 /* ProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
+		78889F641FD8596700EA5403 /* ProtocolFolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolFolderViewController.swift; sourceTree = "<group>"; };
 		78A2414C1FCCFC56003D6C01 /* Alamance EMS PocketGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamance EMS PocketGuide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A2414F1FCCFC56003D6C01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78A241511FCCFC56003D6C01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +60,15 @@
 		78A2414E1FCCFC56003D6C01 /* Alamance EMS PocketGuide */ = {
 			isa = PBXGroup;
 			children = (
+				78889F601FD8588300EA5403 /* EMS PDF Files */,
 				78A2414F1FCCFC56003D6C01 /* AppDelegate.swift */,
 				78A241511FCCFC56003D6C01 /* ViewController.swift */,
 				78A241531FCCFC56003D6C01 /* Main.storyboard */,
 				78A241561FCCFC56003D6C01 /* Assets.xcassets */,
 				78A241581FCCFC56003D6C01 /* LaunchScreen.storyboard */,
 				78A2415B1FCCFC56003D6C01 /* Info.plist */,
+				78889F621FD8593300EA5403 /* ProtocolViewController.swift */,
+				78889F641FD8596700EA5403 /* ProtocolFolderViewController.swift */,
 			);
 			path = "Alamance EMS PocketGuide";
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 				78A2415A1FCCFC56003D6C01 /* LaunchScreen.storyboard in Resources */,
 				78A241571FCCFC56003D6C01 /* Assets.xcassets in Resources */,
 				78A241551FCCFC56003D6C01 /* Main.storyboard in Resources */,
+				78889F611FD8588300EA5403 /* EMS PDF Files in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78889F651FD8596700EA5403 /* ProtocolFolderViewController.swift in Sources */,
+				78889F631FD8593300EA5403 /* ProtocolViewController.swift in Sources */,
 				78A241521FCCFC56003D6C01 /* ViewController.swift in Sources */,
 				78A241501FCCFC56003D6C01 /* AppDelegate.swift in Sources */,
 			);
@@ -275,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMG5C45F8J;
 				INFOPLIST_FILE = "Alamance EMS PocketGuide/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.elon.cs.Alamance-EMS-PocketGuide";
@@ -289,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMG5C45F8J;
 				INFOPLIST_FILE = "Alamance EMS PocketGuide/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.elon.cs.Alamance-EMS-PocketGuide";
